@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew Haven Café</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ 
+   
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Brew Haven Cafe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+       
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="home" class="hero">
+  
+  <div class="hero-bg"> 
+    <img src="./image/img1.jpg" alt="">
+    <img src="./image/img2.jpg" alt="">
+    <img src="./image/img3.jpg" alt="">
+    <img src="./image/img4.jpg" alt="">
+    <img src="./image/img5.jpg" alt="">
+  </div>
+
+  <!-- Hero Content -->
+  <div class="container text-center hero-content">
+    <div class="container text-center hero-content">  <h1 class="hero-title ">
+    <span>C</span><span>r</span><span>a</span><span>f</span><span>t</span>
+    <span>&nbsp;</span>
+    <span>C</span><span>o</span><span>f</span><span>f</span><span>e</span><span>e</span>
+    <span>&nbsp;</span>
+    <span>C</span><span>a</span><span>l</span><span>m</span>
+    <span>&nbsp;</span>
+    <span>S</span><span>p</span><span>a</span><span>c</span><span>e</span><span>.</span>
+  </h1>
+
+  <p class="hero-subtitle fade-up">
+    A modern café serving premium coffee and handmade pastries.
+  </p>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section-padding">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      
+      <div class="col-lg-7">
+        <img src="./image/resteraurant.jpg" class="img-fluid about-img" alt="Brew Haven Café">
+      </div>
+
+      <div class="col-lg-5">
+        <span class="about-tag">Our Story</span>
+        <h2 class="mb-4">Crafting Moments, One Cup at a Time</h2>
+        <p class="about-text">
+          Brew Haven is a modern café built for those who value exceptional coffee and meaningful moments. 
+          We carefully select premium beans and prepare every cup with attention to detail and passion.
+        </p>
+        <p class="about-text">
+          Whether you are working remotely, catching up with friends, or taking a quiet break, 
+          our warm atmosphere and handcrafted beverages make every visit special.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="section-padding bg-light">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="row mb-5">
+      <div class="col text-center">
+        <h2><button type="button" class="btn btn-outline-info">Our Menu</button></h2>
+        <p class="text-muted">butSimple, fresh, and crafted daily</p>
+      </div>
+    </div>
+    <!-- Menu Items -->
+    <div class="row g-4">
+
+      <!-- Item 1 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/espresso.jpg" class="img-fluid mb-3 rounded" alt="Espresso">
+          <h5>Espresso</h5>
+          <p class="text-muted">Rich and bold single shot</p>
+          <span class="fw-semibold">$2.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Espresso" data-price="2.50">Buy</button>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/cappuccino.jpg" class="img-fluid mb-3 rounded" alt="Cappuccino">
+          <h5>Cappuccino</h5>
+          <p class="text-muted">Espresso with milk foam</p>
+          <span class="fw-semibold">$3.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Cappuccino" data-price="3.50">Buy</button>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/latte.jpg" class="img-fluid mb-3 rounded" alt="Latte">
+          <h5>Latte</h5>
+          <p class="text-muted">Smooth espresso and milk</p>
+          <span class="fw-semibold">$4.00</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Latte" data-price="4.00">Buy</button>
+        </div>
+      </div>
+      <!-- Item 4 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/macha.jpg" class="img-fluid mb-3 rounded" alt="Iced Matcha Latte">
+          <h5>Iced Matcha Latte</h5>
+          <p class="text-muted">Creamy matcha over ice</p>
+          <span class="fw-semibold">$4.00</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Iced Matcha Latte" data-price="4.00">Buy</button>
+        </div>
+      </div>
+      <!-- Item 5 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/americanojpg.jpg" class="img-fluid mb-3 rounded" alt="Americano">
+          <h5>Americano</h5>
+          <p class="text-muted">Espresso with hot water</p>
+          <span class="fw-semibold">$3.00</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Americano" data-price="3.00">Buy</button>
+        </div>
+      </div>
+      <!-- Item 6 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/mocha.jpg" class="img-fluid mb-3 rounded" alt="Mocha">
+          <h5>Mocha</h5>
+          <p class="text-muted">Chocolate espresso blend</p>
+          <span class="fw-semibold">$4.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Mocha" data-price="4.50">Buy</button>
+        </div>
+      </div>
+      <!-- Item 7 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/flatwhite.jpg" class="img-fluid mb-3 rounded" alt="Flat White">
+          <h5>Flat White</h5>
+          <p class="text-muted">Velvety steamed milk</p>
+          <span class="fw-semibold">$3.80</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Flat White" data-price="3.80">Buy</button>
+        </div>
+      </div>
+      <!-- Item 8 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/coldbrew.jpg" class="img-fluid mb-3 rounded" alt="Cold Brew">
+          <h5>Cold Brew</h5>
+          <p class="text-muted">Slow brewed & refreshing</p>
+          <span class="fw-semibold">$4.20</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Cold Brew" data-price="4.20">Buy</button>
+        </div>
+      </div>
+        <!-- 5 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/icedtea.jpg" class="img-fluid mb-3 rounded" alt="Americano">
+          <h5>Iced Tea</h5>
+          <p class="text-muted">is a form of cold tea,sweetened and flavored, served with ice</p>
+          <span class="fw-semibold">$1.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Americano" data-price="3.00">Buy</button>
+        </div>
+      </div>
+      <!-- Item 6 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/veganshake.jpg" class="img-fluid mb-3 rounded" alt="Mocha">
+          <h5>Vegan Shake</h5>
+          <p class="text-muted">Vegan Shake in Chocolate</p>
+          <span class="fw-semibold">$2.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Mocha" data-price="4.50">Buy</button>
+        </div>
+      </div>
+      <!-- Item 7 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/crunchyfrappé.jpg" class="img-fluid mb-3 rounded" alt="Flat White">
+          <h5>Crunchy frappé</h5>
+          <p class="text-muted">A crunchy frappé is a blended iced coffee drink. </p>
+          <span class="fw-semibold">$2.80</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Flat White" data-price="3.80">Buy</button>
+        </div>
+      </div>
+      <!-- Item 8 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/chocolateshake.jpg" class="img-fluid mb-3 rounded" alt="Cold Brew">
+          <h5>Cold Brew</h5>
+          <p class="text-muted">made by Chocolate</p>
+          <span class="fw-semibold">$1.20</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Cold Brew" data-price="4.20">Buy</button>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/filtercoffee.jpg" class="img-fluid mb-3 rounded" alt="Americano">
+          <h5>Filter Coffee</h5>
+          <p class="text-muted">is a brewing method where hot water passes through ground coffee in a filter </p>
+          <span class="fw-semibold">$3.20</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Americano" data-price="3.00">Buy</button>
+        </div>
+      </div>
+      <!-- Item 6 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/chilledlatte.jpg" class="img-fluid mb-3 rounded" alt="Mocha">
+          <h5>chilled latte</h5>
+          <p class="text-muted">popular, refreshing coffee drink made with espresso, cold milk, and ice</p>
+          <span class="fw-semibold">$4.50</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Mocha" data-price="4.50">Buy</button>
+        </div>
+      </div>
+      <!-- Item 7 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/cinnamoncoffee.jpg" class="img-fluid mb-3 rounded" alt="Flat White">
+          <h5>Cinnamon coffee</h5>
+          <p class="text-muted">Cinnamon coffee is a popular, aromatic beverage,spicy-sweet flavor of cinnamon</p>
+          <span class="fw-semibold">$3.80</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Flat White" data-price="3.80">Buy</button>
+        </div>
+      </div>
+      <!-- Item 8 -->
+      <div class="col-md-3 col-sm-6">
+        <div class="card p-3 h-100 text-center">
+          <img src="image/coldmocha.jpg" class="img-fluid mb-3 rounded" alt="Cold Brew">
+          <h5>Cold Mocha</h5>
+          <p class="text-muted">A Cold Mocha as an Iced Mocha or Iced Caffè Mocha</p>
+          <span class="fw-semibold">$4.20</span>
+          <button class="btn btn-outline-dark mt-3 add-to-cart" data-name="Cold Brew" data-price="4.20">Buy</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+</section>
+<!-- QR PAYMENT MODAL -->
+<div class="modal" id="qrModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-3">
+      <div class="modal-header border-0 justify-content-center">
+          <h5 class="modal-title fw-semibold text-dark">Scan to Pay</h5>
+         <button type="button"
+  class="btn-close position-absolute end-0 me-3"
+  data-bs-dismiss="modal"
+  aria-label="Close">
+</button>
+
+      </div>
+
+      <div class="modal-body">
+        <p id="modal-info" class="small text-muted mb-3"></p>
+        <img src="image/qr.jpg" class="img-fluid rounded shadow" style="max-width:220px;" alt="KHQR Payment">
+        <p class="small text-muted mt-3">Pay with ACLEDA KHQR</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<footer id="contact" class="bg-dark text-light pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Brand / About -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Brew Haven</h5>
+        <p class="small text-muted">
+          A cozy place to enjoy freshly brewed coffee, handcrafted drinks,
+          and a warm atmosphere every day.
+        </p>
+      </div>
+ 
+     <!-- Contact -->
+<div class="col-md-4 mb-4 footer-contact">
+  <h5 class="fw-bold text-center mb-3">Contact</h5>
+  <!-- Social Links -->
+  <div class="social-links text-center mb-3">
+    <a href="https://www.instagram.com/alex.nang12?igsh=dDI1MTBpZ25pcnk1&utm_source=qr" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.tiktok.com/@chheangsamnang1?_r=1&_t=ZS-92gHzibiw3s" target="_blank">
+      <i class="bi bi-tiktok"></i>
+    </a>
+    <a href="https://www.facebook.com/share/1DAfQqx9PF/?mibextid=wwXIfr" target="_blank">
+    <i class="bi bi-facebook"></i>
+  </a>
+  </div>
+  <!-- Contact Info -->
+  <ul class="list-unstyled small text-center">
+    <li class="mb-2">
+      <strong>Address:</strong><br>
+      123 Coffee Street, City
+    </li>
+    <li class="mb-2">
+      <strong>Email:</strong><br>
+      chheangsamnang.wu@gmail.com
+    </li>
+    <li>
+      <strong>Phone:</strong><br>
+      +855 97 932 5903
+    </li>
+  </ul>
+</div>
+      <!-- Opening Hours -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold">Opening Hours</h5>
+        <ul class="list-unstyled small">
+          <li>Monday – Friday: 7:00 AM – 9:00 PM</li>
+          <li>Saturday: 8:00 AM – 10:00 PM</li>
+          <li>Sunday: 8:00 AM – 8:00 PM</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col text-center small text-muted">
+        © 2025 Brew Haven. All rights reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<footer>
+  <div class="container text-center">
+    <p class="mb-1">© 2025 Brew Haven Café</p>
+    <small>Designed & Developed with HTML, CSS, Bootstrap & javascrip.</small>
+  </div>
+</footer>
+<script src="javascrip.js"></script>
+</body>
+</html>
+ 
